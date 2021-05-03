@@ -1,0 +1,130 @@
+:root {
+    --off-white: hsla(0, 0%,  95%);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+body {
+    background-color: var(--off-white);
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-content: center;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    height: 100px;
+    
+}
+.container {
+    box-sizing: border-box;
+    align-items: center;
+    border-radius: 10px;
+    padding: 20px;
+
+}
+.box1 {
+    background-color: hsl(31, 77%, 52%);
+    padding: 60px;
+    text-align: justify;
+    /* border-radius: px 0px 8px 8px; */
+}
+h1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+
+.box2 {
+    background-color: hsl(184, 100%, 22%);
+    padding: 60px;
+    text-align: justify;
+}
+
+.box3 {
+    background-color: hsl(179, 100%, 13%);
+    padding: 60px;
+    text-align: justify;
+}
+
+.more1 > a {
+   display: block;
+    background-color: var(--off-white);
+    color: hsl(31, 77%, 52%);
+    width: 60%;
+    height: 5vh;
+    border-radius: 30px;
+    text-align: center;
+    padding-top: 10px;
+    text-decoration: none;
+}
+
+.more2 > a {
+    display: block;
+     background-color: var(--off-white);
+     color: hsl(184, 100%, 22%);
+     width: 60%;
+     height: 5vh;
+     border-radius: 30px;
+     text-align: center;
+     padding-top: 10px;
+     text-decoration: none;
+}
+
+.more3 > a {
+    display: block;
+     background-color: var(--off-white);
+     color: hsl(179, 100%, 13%);
+     width: 60%;
+     height: 5vh;
+     border-radius: 30px;
+     text-align: center;
+     padding-top: 10px;
+     text-decoration: none;
+}
+
+h1 {
+    color: var(--off-white);
+    font-family: Lexend Deca;
+}
+
+
+p {
+    padding-bottom: 40px;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+}
+
+/* tablet screen size */
+@media only screen and (min-width: 600px){
+    .container{
+        display: flex;
+       justify-content: space-around;
+       align-items: center;
+       padding: 20px;
+       text-align: justify;
+    }
+    .main-wrapper > div {
+        flex: 1;
+}
+.more1 > a {
+    width: 80%;
+}
+.more2 > a {
+    /* padding: 0; */
+    width: 80%;
+}
+.more3 > a {
+    width: 80%;
+}
+}
+
+/* Desktop Screensize */
+@media only screen and (min-width: 768px){
+   .container{
+       display: flex;
+       justify-content: space-around;
+       text-align: justify;
+      
+    
+   }
+} 
